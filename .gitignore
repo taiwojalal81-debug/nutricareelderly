@@ -1,0 +1,35 @@
+// lib/.gitignore
+
+# Supabase keys (never commit these!)
+lib/core/constants/app_constants.dart.bak
+.env
+.env.local
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.lock
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Next.js
+landing_page/node_modules/
+landing_page/.next/
+landing_page/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.g.dart
